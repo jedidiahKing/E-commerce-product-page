@@ -342,8 +342,14 @@ input {
 /******************************************************************************/
 
 .container123 {
+  position: fixed;
+  background-color: whitesmoke;
+  top:0;
+  right:0;
+  height: 700px;
   width: 33%;
   border: 1px solid wheat;
+  visibility: hidden;
 }
 
 .sub-container123 {
@@ -354,14 +360,19 @@ input {
 }
 
 .sub-container123 .title11 {
-  height: 60px;
+  height: 80px;
   width: 32vw;
   background-color: #0d1149;
   color: white;
   text-align: center;
   padding-left: 15px;
+  
 }
 
+.title11 a{
+  padding-left: 150px;
+  cursor: pointer;
+}
 .image44 img {
   width: 15vw;
   height: 37vh;
