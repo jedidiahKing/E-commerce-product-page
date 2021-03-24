@@ -50,10 +50,12 @@ nav ul {
   padding-right: 25px;
 }
 
-/* .main-image {
-
-} */
-
+.side-images img{
+  cursor: pointer;
+}
+.side-images img :hover{
+  background-color: #1c2280;
+}
 .pdt-img {
   height: 130vh;
   width: 60vw;
@@ -211,6 +213,10 @@ input {
   color: #fff;
   font-size: 20px;
   font-family: Calibri;
+  
+}
+.add-to-bag a{
+  text-decoration: none;
 }
 
 .buy-online {
@@ -330,4 +336,99 @@ input {
 
 .wish-link {
   color: #1c2280;
+}
+
+/******************************************************************************/
+/******************************************************************************/
+
+.container123 {
+  width: 33%;
+  border: 1px solid wheat;
+}
+
+.sub-container123 {
+  display: grid;
+  grid-template-rows: 1fr 3fr 1fr 2fr;
+  row-gap: 10px;
+  height: 50vh;
+}
+
+.sub-container123 .title11 {
+  height: 60px;
+  width: 32vw;
+  background-color: #0d1149;
+  color: white;
+  text-align: center;
+  padding-left: 15px;
+}
+
+.image44 img {
+  width: 15vw;
+  height: 37vh;
+}
+
+.image44{
+  display: flex;
+  flex-direction: right;
+  padding-left: 15px;
+}
+.item-text55{
+  line-height: 0.2;
+  padding-left: 15px;
+}
+
+.inner-textprice{
+  color: red;
+}
+.inner-textprice span{
+  color: black;
+  font-size: small;
+  text-decoration: line-through;
+  padding-left: 15px;
+}
+.lineunder-text{
+  text-decoration: underline;
+}
+.subtotal1{
+  padding-left: 15px;
+  color:#0d1149;
+}
+
+.subtotal1 span{
+  padding-left: 40%;
+}
+
+.subtotal1 .loader1{
+  height: 7px;
+  background-color: rgb(47, 47, 194);
+  border-radius: 3px;
+}
+.buttons1 .checkout-btn{
+  margin-left: 20%;
+  width: 60%;
+  height: 65px;
+  font-size: 20px;
+  color: white;
+  background-color:#0d1149;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.buttons1 .continue-btn{
+  margin-left: 20%;
+  width: 60%;
+  height: 65px;
+  font-size: 20px;
+  color: #0d1149;
+  background-color: white;
+  cursor: pointer;
+  margin-bottom: 10px;
+  box-shadow: none;
+  border: 1px solid black;
+}
+
+.buttons1{
+  margin: auto;
+  justify-content: center;
 }
