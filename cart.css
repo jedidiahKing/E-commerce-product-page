@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 33%;
+    border: 1px solid wheat;
+}
+
+.sub-container {
+    display: grid;
+    grid-template-rows: 1fr 3fr 1fr 2fr;
+    row-gap: 10px;
+    height: 50vh;
+}
+
+.sub-container .title {
+    height: 60px;
+    width: 32vw;
+    background-color: #0d1149;
+    color: white;
+    text-align: center;
+    padding-left: 15px;
+}
+
+.image img {
+    width: 15vw;
+    height: 37vh;
+}
+
+.image{
+    display: flex;
+    flex-direction: right;
+    padding-left: 15px;
+}
+.item-text{
+    line-height: 0.2;
+    padding-left: 15px;
+}
+
+.inner-textprice{
+    color: red;
+}
+.inner-textprice span{
+    color: black;
+    font-size: small;
+    text-decoration: line-through;
+    padding-left: 15px;
+}
+.lineunder-text{
+    text-decoration: underline;
+}
+.subtotal{
+    padding-left: 15px;
+    color:#0d1149;
+}
+
+.subtotal span{
+    padding-left: 40%;
+}
+
+.subtotal .loader1{
+    height: 7px;
+    background-color: rgb(47, 47, 194);
+    border-radius: 3px;
+}
+.buttons .checkout-btn{
+    margin-left: 20%;
+    width: 60%;
+    height: 65px;
+    font-size: 20px;
+    color: white;
+    background-color:#0d1149;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.buttons .continue-btn{
+    margin-left: 20%;
+    width: 60%;
+    height: 65px;
+    font-size: 20px;
+    color: #0d1149;
+    background-color: white;
+    cursor: pointer;
+    margin-bottom: 10px;
+    box-shadow: none;
+    border: 1px solid black;
+}
+
+.buttons{
+    margin: auto;
+    justify-content: center;
+}

@@ -1,0 +1,333 @@
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.container {
+  width: 97%;
+  margin-left: 40px;
+}
+
+.top {
+  display: flex;
+  font-size: 18px;
+}
+
+nav ul {
+  padding-left: 0;
+  /* border: 1px solid blue; */
+  margin-left: 25px;
+}
+
+.navbar ul li {
+  display: inline;
+  /* border: 1px solid blue; */
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: #1c2280;
+  font-weight: 400;
+  font-family: Calibri;
+  font-size: 20px;
+}
+
+.fa-greater-than {
+  font-size: 10px;
+  color: #1c2280;  
+}
+
+.sub-container {
+  display: grid;
+  grid-template-columns: 1fr 5fr 3fr;
+  /* border: 1px solid red; */
+  column-gap: 25px;
+}
+
+.side-images {
+  /* border: 1px solid red; */
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+/* .main-image {
+
+} */
+
+.pdt-img {
+  height: 130vh;
+  width: 60vw;
+}
+
+.pdt-info .pdt-name {
+  color: #1c2280;
+  font-family: Calibri;
+  font-size: 30px;
+  margin-top: 0;
+}
+
+.fa-star {
+  color: #6a71d3;
+  font-size: 20px;
+}
+
+.fa-star-half {
+  color: #6a71d3;
+  font-style: 20px;
+}
+
+.reviews {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.shipping {
+  color: #f12525;
+  font-family: Calibri;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.shipping-spn {
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: lighter;
+}
+
+.pdt-price {
+  color: #f12525;
+  font-family: Calibri;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.pdt-price-spn {
+  font-size: 13px;
+  text-decoration: line-through;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.current-colour {
+  font-weight: 400;
+  font-family: Calibri;
+}
+
+.current-colour-spn {
+  font-weight: 700;
+}
+
+.swatch-img {
+  border: 3px solid blue;
+  border-radius: 50px;
+  width: 30px;
+  height: 30px;
+}
+
+.size {
+  font-weight: 400;
+  font-family: Calibri;
+}
+
+.size-spn {
+  font-weight: 700;
+}
+
+.size-spn-link {
+  padding-left: 30px;
+  color: #000;
+}
+
+.swatch-size {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+}
+
+.swatch-size-detail {
+  /* border: 1px solid red; */
+  margin: auto;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  line-height: 35px;
+  margin-bottom: 5px;
+  background-color: #f8f5f5;
+}
+
+.swatch-size-detail a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+/* .bottom-half {
+
+} */
+
+.item-qnty {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.item-qnty-dse {
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  outline: none;
+  font-size: 20px;
+}
+
+input {
+  width: 32px;
+  height: 32px;
+  outline: none;
+  padding-left: 20px;
+}
+
+.item-qnty-inse {
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  outline: none;
+  font-size: 20px;
+}
+
+.pdt-btns {
+}
+
+.add-to-bag {
+  display: block;
+  width: 100%;
+  height: 5em;
+  cursor: pointer;
+  margin-bottom: 7px;
+  background-color: #1c2280;
+  outline: none;
+}
+
+.add-to-bag:active {
+  transform: translateY(2px);
+}
+
+.add-to-bag-spn {
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  font-family: Calibri;
+}
+
+.buy-online {
+  display: block;
+  width: 100%;
+  height: 5em;
+  cursor: pointer;
+  border: 1px solid #1c2280;
+  outline: none;
+}
+
+.buy-online:active {
+  transform: translateY(2px);
+}
+
+.buy-online-spn {
+  display: block;
+  text-align: center;
+  color: #1c2280;
+  font-weight: 700;
+  /* border: 1px solid red; */
+}
+
+.get-it-today-spn {
+  display: block;
+  text-align: center;
+  color: #1c2280;
+  /* border: 1px solid red; */
+}
+
+.ssd-availability {
+  margin-top: 30px;
+}
+
+.ssd-availability p {
+  text-align: center;
+}
+
+.same-day {
+  color: #1c2280;
+  font-weight: 700;
+}
+
+.sdd-link {
+  font-weight: lighter;
+  color: #6a71d3;
+}
+
+.payment-options {
+  display: flex;
+  justify-content: center;
+}
+
+.options {
+  display: inline;
+  margin: 2px;
+}
+
+.paypal-img {
+  width: 70px;
+  height: 25px;
+}
+
+.amazon-img {
+  width: 70px;
+  height: 25px;
+}
+
+.applepay-img {
+  width: 35px;
+  height: 25px;
+}
+
+.terms-and-conds {
+  display: block;
+}
+
+.or-payments {
+  text-align: center;
+  color: #1c2280;
+}
+
+.afterpay-img {
+  width: 70px;
+  /* height: 25px;  */
+}
+
+.question {
+  text-decoration: none;
+}
+
+/* .options-wishlist {
+
+} */
+.options-wishlist ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.options-wishlist ul li {
+  text-decoration: none;
+  list-style: none;
+}
+.options-wishlist ul li a {
+  text-decoration: none;
+}
+
+/* 
+.gift {
+} */
+
+/* .wish {
+} */
+
+.gift-link {
+  color: #1c2280;
+}
+
+.wish-link {
+  color: #1c2280;
+}
