@@ -53,8 +53,8 @@ nav ul {
 .side-images img{
   cursor: pointer;
 }
-.side-images img :hover{
-  background-color: #1c2280;
+.side-images :hover{
+  border: 2px solid #1c2280;
 }
 .pdt-img {
   height: 130vh;
@@ -143,6 +143,11 @@ nav ul {
   grid-template-columns: repeat(8, 1fr);
 }
 
+.swatch-size :hover{
+  border: 2px solid #1c2280;
+  cursor: pointer;
+}
+
 .swatch-size-detail {
   /* border: 1px solid red; */
   margin: auto;
@@ -158,6 +163,8 @@ nav ul {
   text-decoration: none;
   color: rgba(0, 0, 0, 0.6);
 }
+
+
 
 /* .bottom-half {
 
@@ -346,7 +353,6 @@ input {
   background-color: whitesmoke;
   top:0;
   right:0;
-  height: 700px;
   width: 33%;
   border: 1px solid wheat;
   visibility: hidden;

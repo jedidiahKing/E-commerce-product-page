@@ -40,11 +40,11 @@
 
       <div class="sub-container">
         <div class="side-images">
-          <img class="side-top-img" src="assets/side-top.jpg" alt="" />
-          <img class="side-middle-img" src="assets/side-middle.jpg" alt="" />
-          <img class="side-bottom-img" src="assets/side-bottom.jpg" alt="" />
+          <img class="side-top-img" id="img1" onclick="ChangeImg(1)" src="assets/side-top.jpg" alt="" />
+          <img class="side-middle-img" id="img2" onclick="ChangeImg(2)" src="assets/side-middle.jpg" alt="" />
+          <img class="side-bottom-img" id="img3" onclick="ChangeImg(3)" src="assets/side-bottom.jpg" alt="" />
         </div>
-        <div class="main-image">
+        <div class="main-image" id="main-img">
           <img class="pdt-img" src="assets/main.jpg" alt="" />
         </div>
         <div class="pdt-info">
@@ -82,23 +82,22 @@
             </p>
           </div>
           <div class="swatch-size">
-            <div class="swatch-size-detail"><a href="">2T</a></div>
-            <div class="swatch-size-detail"><a href="">3T</a></div>
-            <div class="swatch-size-detail"><a href="">4T</a></div>
-            <div class="swatch-size-detail"><a href="">5</a></div>
-            <div class="swatch-size-detail"><a href="">6</a></div>
-            <div class="swatch-size-detail"><a href="">7</a></div>
-            <div class="swatch-size-detail"><a href="">S</a></div>
-            <div class="swatch-size-detail"><a href="">M</a></div>
-            <div class="swatch-size-detail"><a href="">L</a></div>
-            <div class="swatch-size-detail"><a href="">XL</a></div>
+            <div class="swatch-size-detail"><a href="#">2T</a></div>
+            <div class="swatch-size-detail"><a href="#">3T</a></div>
+            <div class="swatch-size-detail"><a href="#">4T</a></div>
+            <div class="swatch-size-detail"><a href="#">5</a></div>
+            <div class="swatch-size-detail"><a href="#">6</a></div>
+            <div class="swatch-size-detail"><a href="#">7</a></div>
+            <div class="swatch-size-detail"><a href="#">S</a></div>
+            <div class="swatch-size-detail"><a href="#">M</a></div>
+            <div class="swatch-size-detail"><a href="#">L</a></div>
+            <div class="swatch-size-detail"><a href="#">XL</a></div>
           </div>
 
           <div class="bottom-half">
+            Select Qty:
             <div class="item-qnty">
-              <button class="item-qnty-dse">-</button>
               <input type="number" />
-              <button class="item-qnty-inse">+</button>
             </div>
             <div class="pdt-btns">
               <button class="add-to-bag">
